@@ -1,4 +1,4 @@
-# gkpt-penetration-toolkit
+# GKPT Toolkit (Gary K Penetration Testing Toolkit)
 Toolkits for vulnerability assessment and penetration testing
 
 #PHP Application
