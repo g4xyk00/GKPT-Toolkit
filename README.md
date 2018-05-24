@@ -6,6 +6,11 @@ Toolkits for vulnerability assessment and penetration testing
 ### Nmap XML Parser
 Nmap parser is a simple nmap xml parser that convert the nmap XML report into html format. You may use this PHP file as your skeleton to write your own desire XML to HTML parser!
 
+### Nmap XML Parser with SSL instances
+Filter SSL instance with your Nmap xml file! After the output is generated, the output can be saved into a text file and use sslscan to scan on the target file. 
+
+![alt text](https://4.bp.blogspot.com/-oyUIdZgD3Cc/WwY6wsrMVBI/AAAAAAAABeo/WmIVP1v4tY8vfVFEAV75UXsNyTSnQE56ACLcBGAs/s1600/ssl.PNG)
+
 ### ssh2-enum-algos Analyzer
 SSH Analyzer will read the nmap XML report convert it into Nessus SSH related finding. This application will speed up the process of penetration tester when doing the verification of SSH finding. 
 
