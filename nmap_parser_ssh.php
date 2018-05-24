@@ -41,7 +41,7 @@ foreach ($instances as $i){
 };
 echo "<hr/>";
 echo "<h3>ssh2-enum-algos Analyzer Command Generator</h3>";
-echo "<b>Command:</b> <code>nmap --script ssh2-enum-algos -iL target.txt -p ".implode(",", $uniquePort)." -oX nmap_ssh </code><br/><br/>";
+echo "<b>Command:</b> <code>nmap --script ssh2-enum-algos -iL target.txt -p ".implode(",", $uniquePort)." -oX nmap_ssh.xml </code><br/><br/>";
 
 echo "<i>target.txt:</i><br/>";
 foreach ($uniqueIP as $ip){
